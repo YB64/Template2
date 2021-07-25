@@ -157,6 +157,145 @@ const res= {
             "src": "",
             "alt": ""
         }
-    }
+    },
+
+
+
+    "gallery":[
+        {
+            
+            "img": "https://dummyimage.com/lrgrec"
+           
+            
+        },
+        {
+            
+            "img": "https://dummyimage.com/lrgrec"
+           
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+           
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+           
+            
+        }
+        ,{
+            
+            "img": "https://dummyimage.com/lrgrec"
+           
+            
+        }
+        ,{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        }
+        ,{
+            
+            "img": "https://dummyimage.com/lrgrec"
+        
+            
+        }
+        ,{
+            
+            "img": "https://dummyimage.com/lrgrec"
+           
+        },
+        {
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },
+        {
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        },{
+            
+            "img": "https://dummyimage.com/lrgrec"
+            
+            
+        }]
+
+
+
 }
 export default res;

@@ -1,14 +1,35 @@
 .pdt{
 
-    width: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 329px;
+    height: 400px;
+    margin-left: 80px;
+    background-color: lightcoral;
     display: inline-block;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 40px;
+/* identical to box height */
+margin-top: 0px;
+ background: #2A2626;
+
+
+
+color: #FFFFFF;
+
+}
+.pdtimage{
+
+    width: 329px;
+    height: 329px;
+
+
 
 }
 
 .PdtHeading{
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: 'Playfair Display', serif;
     color: white;
     font-size: 64px;
@@ -37,14 +58,20 @@
     color: white;
     font-size: 24px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 50px;
     
 }
 .Products{
-    margin-top: 50px;
+    margin-top: 60px;
+    display: flex;
+    overflow-x: scroll;
+    
     
 }
 .underline{
     width: 100%;
     color:white ;
+}
+::-webkit-scrollbar {
+    display: none;
 }

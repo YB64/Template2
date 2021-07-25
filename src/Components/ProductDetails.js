@@ -9,6 +9,9 @@ import ImageScroller from 'react-image-scroller';
 import { Divider } from "@material-ui/core";
 import { makeStyles } from '@material-ui/core';
 import DividerStyle from './Dividercss';
+import ImageList from '@material-ui/core/ImageList';
+import ImageListItem from '@material-ui/core/ImageListItem';
+import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 
 function ProductDetails(props){
     const useStyles = makeStyles(DividerStyle);
@@ -23,22 +26,28 @@ function ProductDetails(props){
         </div>
         
         <div className="desContainer"> {props.description} </div>
+        
         <div className="Products">  
-            <ImageScroller>
+       
+            
                 {props.products.map((product)=>(
                 
-                <Card className="pdt" variant="outlined" >
-                <img src={product.img}></img>
-                <CardContent>
-                    {product.label}
-                </CardContent>
-                </Card>
-            
+                <div className="pdt"  >
+                    
+                <img src={product.img} className="pdtimage"></img>
+                
+                {product.label}
+                
+                   
+                </div>
+                
                 ))}
-                </ImageScroller>
+                
+                
             
 
         </div>
+        
     </div>
    ) ;
 
