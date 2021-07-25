@@ -1,0 +1,50 @@
+.pdt{
+
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+
+}
+
+.PdtHeading{
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    
+    display:inline-block;
+    
+}
+
+.productDetailsContainer
+{
+    
+    width: 1516px;
+    height: 857px;
+    
+    background-color: #2A2626;
+    display: inline-block;
+}
+
+.desContainer{
+    
+    margin: auto;
+    width: 1345px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    
+}
+.Products{
+    margin-top: 50px;
+    
+}
+.underline{
+    width: 100%;
+    color:white ;
+}

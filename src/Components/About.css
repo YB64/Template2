@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+*{
+    margin-top: 1px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+/* Pararaph css */
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-right: 83px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+/* heading css */
+.AboutLabel{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 111px;
+    
+    margin-left: auto;
+    text-align: left;
+}
+
+/* Image css */
+.col-1 img {
+margin-top: 100px;
+width: 449px;
+height: 651px;
+margin-left: 126px;
+
+/* gradient overlay on photos */
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 98.75%);
+} 
+
+
+/* two column css */
+.container {
+   
+width: 1516px;
+height: 857px;
+
+display: inline-flex   ;
+background: rgba(5, 0, 0, 0.84);
+
+}
+  
+
+   
+.col-2{
+    
+width: 775px;
+height: 504px;
+margin-left: 82px;
+
+}
+
