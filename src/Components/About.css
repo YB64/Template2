@@ -10,12 +10,7 @@
 
 /* Pararaph css */
 p{
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-    margin-right: 83px;
-    font-size: 24px;
-    font-weight: 700;
-    text-align: left;
+    
 }
 
 /* heading css */
@@ -32,7 +27,7 @@ p{
 
 /* Image css */
 .col-1 img {
-margin-top: 100px;
+margin-top: 120px;
 width: 449px;
 height: 651px;
 margin-left: 126px;
@@ -61,6 +56,12 @@ background: rgba(5, 0, 0, 0.84);
 width: 775px;
 height: 504px;
 margin-left: 82px;
+font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-right: 83px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: justify;
 
 }
 

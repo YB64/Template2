@@ -21,7 +21,7 @@ function Gallery(props){
                 
                 <div className="galleryImage"  >
                     
-                <img src={galleryImage.img} ></img>
+                <img className="galleryImage1" src={galleryImage.img} ></img>
                 
                
                 

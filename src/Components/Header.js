@@ -12,7 +12,7 @@ const Header = () => {
     const classes = useStyles();
     return (
         <>
-            <AppBar>
+            <AppBar position="absolute">
                 <div className={classes.logocontainer}>
                     <img src={logo} className={classes.logo} />
                 </div>
