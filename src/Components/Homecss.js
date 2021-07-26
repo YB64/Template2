@@ -43,8 +43,8 @@ boxShadow: "140px -58px 17px rgba(0, 0, 0, 0.2)",
     },
     tagline:{
         
-        width: "521px",
-        height: "150px",
+        width: "200px",
+        display: "block"   ,
         color: "black",
         textAlign:"left",
         marginBottom:"0px",
@@ -54,8 +54,9 @@ boxShadow: "140px -58px 17px rgba(0, 0, 0, 0.2)",
         fontStyle: "normal",
         fontWeight: "900",
         fontSize: "64px",
-        lineHeight: "72px",
-        paddingBottom:"0px"
+        lineHeight: "84px",
+       
+        
         
         
     },
@@ -71,6 +72,7 @@ fontFamily: "Playfair Display",
 fontStyle: "normal",
 fontWeight: "normal",
 fontSize: "36px",
+textAlign:"left",
 lineHeight: "48px",
         color : 'black',
         marginTop:"10px",

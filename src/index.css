@@ -5,8 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(180deg, #FFFFFF 0%, #C4C4C4 100%);
+  /* background-color: linear-gradient(180deg, #FFFFFF 0%, #C4C4C4 100%); */
+  background:linear-gradient(180deg, #FFFFFF 0%, #C4C4C4 100%);
   color: aliceblue;
+  border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 98px rgba(1, 1, 1, 0.25);
 }
 
 code {

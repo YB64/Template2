@@ -18,7 +18,7 @@ const res= {
         }
     },
     "home": {
-        "tagline": "Lacinia commodo",
+        "tagline": "Lacinia commodo.",
         "taglineDescription": "Lorem ipsum dolor sit amet. consecteture adipiscing elit.",
         "product_snippet": {
             "src": "https://s3-alpha-sig.figma.com/img/1531/aee1/5831eee64a1ec1cf65f039c2c6511b35?Expires=1627862400&Signature=gY91y2cJ3AGmDNenEdG2JAt~X6n747MP6oZcb4mBh3CEnf42XCHVbBE9mbcgt8tphIuOSFhlhZr8GGeuX9ETDjVXRL7n8l32z~c3LpPg2yTGVPYjJxmw3dZc4iXuOFvvSY81Q7yd06oTrNLPXjMXR0OjcJLS-Co3Y7E58UzLd0PUsjYWA7BDmaopSWiEXQWY04XKLGC7orKMzL3GcMOR5UNKJQhy7dz6Y-CL8y3KSKqDyfUdKFag3qDXuBb5LRyE~y-nYMiCWqkJ9ncd35is8-UyKiF0CaOWlZ3II1TSMHIZ4XgZ4JLcvEZaC9lNCXyAzgBerG~JvsmpqyTFqtOHpA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
@@ -108,7 +108,7 @@ const res= {
     },
       "aboutUs": { 
         "label": "About Me",
-        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta expedita fugiat eveniet impedit similique illum quidem asperiores quaerat nisi dicta fuga maiores doloribus cumque ea eius at blanditiis sequi! Accusamus, ipsa distinctio? Vitae veritatis alias repellendus esse dignissimos qui earum reiciendis, modi beatae quis provident excepturi voluptas ullam perferendis asperiores eligendi hic, sed doloremque, obcaecati minima blanditiis dolorum repudiandae expedita dolor. Recusandae molestiae ea laborum excepturi quo repudiandae, in quae omnis ex veritatis, odio, quas numquam delectus sequi debitis consectetur voluptatibus facilis voluptas quam corrupti assumenda magnam. Mollitia necessitatibus iusto maiores debitis fugit beatae libero iste possimus ab placeat.",
+        "shortDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta expedita fugiat eveniet impedit similique illum quidem asperiores quaerat nisi dicta fuga maiores doloribus cumque ea eius at blanditiis sequi! Accusamus, ipsa distinctio? Vitae veritatis alias repellendus esse dignissimos qui earum reiciendis, modi beatae quis provident excepturi voluptas ullam perferendis asperiores eligendi hic, sed doloremque, obcaecati minima blanditiis dolorum repudiandae expedita dolor. Recusandae molestiae ea laborum excepturi quo repudiandae, in quae omnis ex veritatis, odio, quas numquam delectus sequi debitis consectetur voluptatibus facilis voluptas quam corrupti assumenda magnam. Mollitia necessitatibus iusto maiores debitis fugit beatae libero iste possimus ab placeat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, soluta expedita fugiat eveniet impedit similique illum quidem asperiores quaerat nisi dicta fuga maiores doloribus cumque ea eius at blanditiis sequi! Accusamus, ipsa distinctio? Vitae veritatis alias repellendus esse dignissimos qui earum reiciendis, modi beatae quis.",
         "team_member / owner": [
             {
                 "name": "",

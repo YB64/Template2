@@ -1,27 +1,29 @@
 import React from "react";
-import "./Gallery.css";
+import { makeStyles } from '@material-ui/core/styles';
+import styles from "./Gallerycss.js";
+const useStyles = makeStyles(styles);
 
 function Gallery(props){
-    
+    const classes = useStyles();
 
    return (
-    <div className="galleryContainer">
-        <div className="galleryHeading">
+    <div className={classes.galleryContainer}>
+        <div className={classes.galleryHeading}>
         Gallery
-            <hr className="underline" />
+            <hr className={classes.underline} />
             
         </div>
         
         <br/>
         
-        <div className="allImages">  
+        <div className={classes.allImages}>  
        
             
                 {props.gallery.map((galleryImage)=>(
                 
-                <div className="galleryImage"  >
+                <div className={classes.galleryImage}  >
                     
-                <img className="galleryImage1" src={galleryImage.img} ></img>
+                <img className={classes.galleryImage1} src={galleryImage.img} ></img>
                 
                
                 

@@ -1,28 +1,26 @@
 import React from 'react';
-import "./About.css";
-import { Divider } from '@material-ui/core';
+import styles from "./Aboutcss.js";
 import { makeStyles } from '@material-ui/core';
-import DividerStyle from './Dividercss';
-
+const useStyles = makeStyles(styles);
 
 function About(props){
 
 
-    const useStyles = makeStyles(DividerStyle);
+    
     const classes=useStyles();
     
     
     return (
         <>
-        <div className="container">
-        <div className="col-1">
-            <img src={props.image} alt={props.alt}></img>
+        <div className={classes.container}>
+        <div >
+            <img className={classes.col_1_img} src={props.image} alt={props.alt}></img>
         </div>
         
-        <div className="col-2">
+        <div className={classes.col_2}>
                  
-            <h1 className="AboutLabel">{props.label}</h1>
-            <Divider className={classes.underline} variant='left' />  
+            <div className={classes.AboutLabel}>{props.label} <hr className={classes.underline} /></div>
+            
             <br/>
             <p>{props.description}</p>
         </div>
