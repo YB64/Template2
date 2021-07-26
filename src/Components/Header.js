@@ -3,26 +3,33 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import { makeStyles } from '@material-ui/core/styles';
 import styles from './Headercss.js';
-
-var logo="https://www.pngkey.com/png/detail/47-475528_instagramm-clipart-instagram-symbol-instagram-logo-100x100-png.png";
+import res from './resource.js';
 
 const useStyles = makeStyles(styles);
 
 const Header = () => {
     const classes = useStyles();
+    const arr = res["nav"]["links"];
+    arr.sort((a, b) => a["order"] > b["order"]);
+
     return (
         <>
-            <AppBar position="absolute">
-                <div className={classes.logocontainer}>
-                    <img src={logo} className={classes.logo} />
-                </div>
-                <div className={classes.maincontent}>
-                    <span className={classes.content}>Home</span>
-                    <span className={classes.content}>Products</span>
-                    <span className={classes.content}>About us</span>
-                    <span className={classes.content}>Contact</span>
-                    <span className={classes.content}>Demo</span>
-                </div>
+            {console.log(arr)}
+            <AppBar color="#555">
+                <Toolbar>
+                    <div className={classes.logocontainer}>
+                        <img src={res["nav"]["logo"]["src"]} alt={res["nav"]["logo"]["alt"]} className={classes.logo} />
+                    </div>
+                    <div className={classes.maincontent}>
+                        {arr.map((item, index) => {
+                            return (
+                                <span className={classes.content}>
+                                    {item["label"]}
+                                </span>
+                            )
+                        })}
+                    </div>
+                </Toolbar>
             </AppBar>
         </>
     )
